@@ -1,0 +1,564 @@
+2022-08-24 19:04:53,379 - WARNING - Unknown symbol CSP/USDT
+2022-08-24 19:05:37,927 - WARNING - Unknown symbol CSP/USDT
+2022-08-24 19:05:42,329 - WARNING - Unknown symbol CSP/USDT
+2022-08-24 19:05:46,104 - WARNING - Unknown symbol CSP/USDT
+2022-08-24 19:06:25,450 - WARNING - Unknown symbol CSP/USDT
+2022-08-24 19:09:36,132 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 54, in get_data
+    if self.check_currency(currency)!= None:
+AttributeError: 'BaseHandler' object has no attribute 'check_currency'
+2022-08-24 19:09:36,977 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 54, in get_data
+    if self.check_currency(currency)!= None:
+AttributeError: 'BaseHandler' object has no attribute 'check_currency'
+2022-08-24 19:09:37,382 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 54, in get_data
+    if self.check_currency(currency)!= None:
+AttributeError: 'BaseHandler' object has no attribute 'check_currency'
+2022-08-24 19:09:40,338 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 54, in get_data
+    if self.check_currency(currency)!= None:
+AttributeError: 'BaseHandler' object has no attribute 'check_currency'
+2022-08-24 19:09:41,567 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 54, in get_data
+    if self.check_currency(currency)!= None:
+AttributeError: 'BaseHandler' object has no attribute 'check_currency'
+2022-08-24 19:09:44,310 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 54, in get_data
+    if self.check_currency(currency)!= None:
+AttributeError: 'BaseHandler' object has no attribute 'check_currency'
+2022-08-24 19:09:45,846 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 54, in get_data
+    if self.check_currency(currency)!= None:
+AttributeError: 'BaseHandler' object has no attribute 'check_currency'
+2022-08-24 19:12:36,174 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 67, in get_data
+    currency_id = get_currency_id()
+TypeError: BaseHandler.get_data.<locals>.get_currency_id() missing 1 required positional argument: 'self'
+2022-08-24 19:13:00,727 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 67, in get_data
+    currency_id = get_currency_id()
+TypeError: BaseHandler.get_data.<locals>.get_currency_id() missing 1 required positional argument: 'self'
+2022-08-24 19:13:08,323 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 67, in get_data
+    currency_id = get_currency_id()
+TypeError: BaseHandler.get_data.<locals>.get_currency_id() missing 1 required positional argument: 'self'
+2022-08-24 19:13:13,653 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 67, in get_data
+    currency_id = get_currency_id()
+TypeError: BaseHandler.get_data.<locals>.get_currency_id() missing 1 required positional argument: 'self'
+2022-08-24 19:21:36,544 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 70, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 62, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-24 19:21:38,861 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 70, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 62, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 00:27:43,148 - ERROR - Error handling request
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/server.py", line 14, in handle_currency
+    response_obj = { 'response' : BaseHandler.get_data(currency='{}'.format(request.match_info["currency"]))}
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 70, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 62, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:16:50,442 - ERROR - <traceback object at 0x104d64c00>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().last_bid(currency)
+AttributeError: 'super' object has no attribute 'last_bid'
+2022-08-25 15:17:11,129 - ERROR - <traceback object at 0x104d648c0>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().last_bid(currency)
+AttributeError: 'super' object has no attribute 'last_bid'
+2022-08-25 15:17:14,154 - ERROR - <traceback object at 0x104d64bc0>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().last_bid(currency)
+AttributeError: 'super' object has no attribute 'last_bid'
+2022-08-25 15:17:14,745 - ERROR - <traceback object at 0x104d66680>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().last_bid(currency)
+AttributeError: 'super' object has no attribute 'last_bid'
+2022-08-25 15:17:14,908 - ERROR - <traceback object at 0x104d67040>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().last_bid(currency)
+AttributeError: 'super' object has no attribute 'last_bid'
+2022-08-25 15:17:15,570 - ERROR - <traceback object at 0x104d66680>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().last_bid(currency)
+AttributeError: 'super' object has no attribute 'last_bid'
+2022-08-25 15:21:18,608 - ERROR - <traceback object at 0x10c0b49c0>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:23:12,722 - ERROR - <traceback object at 0x10be40700>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:23:13,351 - ERROR - <traceback object at 0x10c0b78c0>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:23:16,018 - ERROR - <traceback object at 0x10be40f80>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:23:20,163 - ERROR - <traceback object at 0x10be42d00>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:23:21,242 - ERROR - <traceback object at 0x10be43f40>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:23:22,428 - ERROR - <traceback object at 0x10be42ec0>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:23:46,650 - ERROR - <traceback object at 0x10be42a00>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:24:32,640 - ERROR - <traceback object at 0x10bf17a40>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:24:35,191 - ERROR - <traceback object at 0x10bf16b80>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:24:40,502 - ERROR - <traceback object at 0x10bf14b00>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:24:52,769 - ERROR - <traceback object at 0x10bf14580>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:25:09,421 - ERROR - <traceback object at 0x10bdd2180>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:26:31,240 - ERROR - <traceback object at 0x10b6c9480>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:27:20,320 - ERROR - <traceback object at 0x10b97a7c0>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:27:37,802 - ERROR - <traceback object at 0x10b978480>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:28:28,986 - ERROR - <traceback object at 0x10b91e640>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:31:24,278 - ERROR - <traceback object at 0x10bc7bac0>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:32:18,663 - ERROR - <traceback object at 0x10c18a580>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:32:57,311 - ERROR - <traceback object at 0x10c189d80>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-25 15:34:01,806 - ERROR - <traceback object at 0x10b8d2780>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-25 15:36:08,772 - ERROR - <traceback object at 0x105416c40>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-26 09:27:38,809 - ERROR - <traceback object at 0x109c0b680>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 92, in handle
+    return await self.get_data(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 97, in get_data
+    response = super().get_data(currency)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 66, in get_data
+    currency_id = get_currency_id()
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 58, in get_currency_id
+    c_id = currency_info["id"]
+TypeError: 'NoneType' object is not subscriptable
+2022-08-26 09:28:03,712 - ERROR - <traceback object at 0x109c0ad00>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-26 09:28:04,316 - ERROR - <traceback object at 0x109c0b900>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-26 09:28:06,926 - ERROR - <traceback object at 0x109c0af00>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'
+2022-08-26 09:28:08,977 - ERROR - <traceback object at 0x109c0a100>
+Traceback (most recent call last):
+  File "/Users/samuelrybar/project_development_crypto/middlewares.py", line 38, in error_middleware
+    return await handler(request)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 91, in handle
+    return await self.get_history_paginated(request)
+  File "/Users/samuelrybar/project_development_crypto/env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 232, in wrapped
+    context = await coro(*args)
+  File "/Users/samuelrybar/project_development_crypto/Backend.py", line 106, in get_history_paginated
+    currencies = await super().history_paginated(page, currency)
+AttributeError: 'super' object has no attribute 'history_paginated'

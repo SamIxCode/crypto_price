@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Last Bid{% endblock %}
+{% block content %}
+    {% for element in response %}
+        <div style="margin-top: 1%; margin-bottom: 1%;display: inline-block; width:33%">
+            <div><b> Currency name : {{ element.name }} </b></div>
+            <div> Searched symbol : {{ element.symbol }} </div>
+            <div> Last known bid : {{ element.last_bid }} </div>
+        </div>
+    {% endfor %}
+{% endblock %}
